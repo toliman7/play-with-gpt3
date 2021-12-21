@@ -19,7 +19,12 @@ pip install -r requirements.txt
 
 ## To run the notebook
 
+First you need to get an API-Key from OpenAI. They have a trial period for which you can get limited access.
+Put the API key in an environment variable and start the notebook:
+
+
 ```
+export OPENAI_API_KEY="..."
 jupyter notebook
 ```
 
